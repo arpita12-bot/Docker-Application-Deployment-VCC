@@ -44,12 +44,36 @@ Docker Compose installed on your system
 
 ### Steps:
 
+Step 1: Install Docker Desktop on Windows
+
+1. *Download Docker Desktop*:
+   - Visit the [Docker Desktop website](https://www.docker.com/products/docker-desktop) and download the installer.
+
+2. *Install Docker Desktop*:
+   - Run the installer and follow the on-screen instructions.
+   - Ensure you enable the option to use WSL 2 during installation.
+
+3. *Start Docker Desktop*:
+   - After installation, start Docker Desktop from the Start menu.
+   - Verify that Docker is running by opening a Command Prompt or PowerShell and running:
+     sh
+     docker --version
+     
 Clone this repository to your local machine.
 Navigate to the project directory.
 Build and start the Docker containers using Docker Compose
 ```bash
   docker-compose up --build
 ```
+
+### Step 2: Create a Sample Web Application
+
+1. *Create a project directory*:
+   - Open Command Prompt or PowerShell and run:
+     sh
+     mkdir myapp
+     cd myapp
+     
 Access the web application by navigating to http://localhost in your web browser.
 
 Project Directory Structure
