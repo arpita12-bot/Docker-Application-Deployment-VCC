@@ -65,16 +65,23 @@ Build and start the Docker containers using Docker Compose
 ```bash
   docker-compose up --build
 ```
-
-### Step 2: Create a Sample Web Application
-
 1. *Create a project directory*:
    - Open Command Prompt or PowerShell and run:
      sh
      mkdir myapp
      cd myapp
+2. Build the Docker image*:
+   - Open Command Prompt or PowerShell in your project directory and run:
+     sh
+     docker build -t myapp .
      
+
+3. *Run the Docker container*:
+   sh
+   docker run -p 3000:3000 myapp
 Access the web application by navigating to http://localhost in your web browser.
+
+### Step 2: Create a Sample Web Application
 
 Project Directory Structure
 ```bash
