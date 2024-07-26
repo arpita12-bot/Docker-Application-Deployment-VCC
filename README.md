@@ -33,7 +33,7 @@ The application allows users to register for courses by submitting their name an
 
 * Docker containers for isolated and reproducible environments
 
-## Deployment
+## Deployment:
 To deploy the application, follow the steps below:
 
 ### Prerequisites:
@@ -44,7 +44,7 @@ Docker Compose installed on your system
 
 ### Steps:
 
-Step 1: Install Docker Desktop on Windows
+### Step 1: Install Docker Desktop on Windows:
 
 1. *Download Docker Desktop*:
    - Visit the [Docker Desktop website](https://www.docker.com/products/docker-desktop) and download the installer.
@@ -81,7 +81,7 @@ Build and start the Docker containers using Docker Compose
    docker run -p 3000:3000 myapp
 Access the web application by navigating to http://localhost in your web browser.
 
-### Step 2: Create a Sample Web Application
+### Step 2: Create a Sample Web Application :
 
 Project Directory Structure
 ```bash
@@ -91,7 +91,7 @@ Project Directory Structure
 ├── index.php
 └── README.md
 ```
-### Files in This Repository
+### Files in This Repository:
 Dockerfile
 
 Defines the web server environment:
