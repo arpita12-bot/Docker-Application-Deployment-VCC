@@ -11,7 +11,7 @@ This project demonstrates the deployment of a sample web application in php usin
 
     3. Getting Started
 
-    4. Files in This Repository
+    4. Files in this repository
 
     5. Author
 ## Project Overview:
