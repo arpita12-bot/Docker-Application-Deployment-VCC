@@ -2,7 +2,7 @@
 Assignment for Virtualization and Cloud computing
 # Virtualization and Cloud Computing | PHP Docker App
 
-This project demonstrates the deployment of a sample web application in php using Docker containers. The application is built from scratch, avoiding the use of pre-existing Docker container images.
+This project demonstrates the deployment of a sample web application in php using Docker containers. The application is built from scratch.
 
 ## Table of Contents:
     1. Project Overview
@@ -21,10 +21,10 @@ Creating Docker images from scratch for a web application and a MySQL database.
 
 Deploying the application using Docker Compose.
 
-The web application is a simple PHP-based course registration form that interacts with a MySQL database.
+The web application is a simple PHP-based job app registration form that interacts with  MySQL database.
 
 ## App Functionality:
-The application allows users to register for courses by submitting their name and course details through a form. The data is then stored in a MySQL database.
+The application allows users to register for job applicants by submitting their professional and personal details through a form. The data is then stored in a MySQL database.
 
 ### Features:
 * Web server running Apache2 with PHP 7.4
@@ -79,19 +79,19 @@ Build and start the Docker containers using Docker Compose
 3. *Run the Docker container*:
    sh
    docker run -p 3000:3000 myapp
+   
 Access the web application by navigating to http://localhost in your web browser.
 
 ### Step 2: Create a Sample Web Application :
 
 Project Directory Structure
 ```bash
-    .
 ├── docker-compose.yml
 ├── Dockerfile
-├── index.php
+├── phpscripts.php
 └── README.md
 ```
-### Files in This Repository:
+### Files in this repository:
 Dockerfile
 
 Defines the web server environment:
@@ -135,7 +135,7 @@ volumes:
   db_data:
 ```
 
-index.php
+phpscripts.php
 
 The PHP script for handling form submissions and database interactions:
 ```bash
