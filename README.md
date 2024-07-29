@@ -38,7 +38,7 @@ To deploy the application, follow the steps below:
 
 ### Prerequisites:
 
-+ Docker installed on your system
++ Docker installed on your system(We'r using VM with ubuntu desktop set up)
 + Docker Compose installed on your system
 
 ### Steps:
