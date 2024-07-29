@@ -38,30 +38,14 @@ To deploy the application, follow the steps below:
 
 ### Prerequisites:
 
-Docker installed on your system
-
-Docker Compose installed on your system
++ Docker installed on your system
++ Docker Compose installed on your system
 
 ### Steps:
 
-### Step 1: Install Docker Desktop on Windows:
-
-1. *Download Docker Desktop*:
-   - Visit the [Docker Desktop website](https://www.docker.com/products/docker-desktop) and download the installer.
-
-2. *Install Docker Desktop*:
-   - Run the installer and follow the on-screen instructions.
-   - Ensure you enable the option to use WSL 2 during installation.
-
-3. *Start Docker Desktop*:
-   - After installation, start Docker Desktop from the Start menu.
-   - Verify that Docker is running by opening a Command Prompt or PowerShell and running:
-     sh
-     docker --version
-     
-Clone this repository to your local machine.
-Navigate to the project directory.
-Build and start the Docker containers using Docker Compose
+### Step 1: Install Docker on VM with hypervisor:
++ Navigate to the project directory.
++ Build and start the Docker containers using Docker Compose
 ```bash
   docker-compose up --build
 ```
@@ -80,7 +64,7 @@ Build and start the Docker containers using Docker Compose
    sh
    docker run -p 3000:3000 myapp
    
-Access the web application by navigating to http://localhost in your web browser.
++ Access the web application by navigating to http://localhost in your web browser.
 
 ### Step 2: Create a Sample Web Application :
 
@@ -94,7 +78,7 @@ Project Directory Structure
 ### Files in this repository:
 Dockerfile
 
-Defines the web server environment:
++ Defines the web server environment:
 ```bash
 Dockerfile
 
@@ -110,7 +94,7 @@ EXPOSE 80
 ```
 docker-compose.yml
 
-Defines the services and their configurations:
++ Defines the services and their configurations:
 
 ```bash
 version: '3.1'
@@ -137,7 +121,7 @@ volumes:
 
 phpscripts.php
 
-The PHP script for handling form submissions and database interactions:
++ The PHP script for handling form submissions and database interactions:
 ```bash
 <!DOCTYPE html>
 <html lang="en">
