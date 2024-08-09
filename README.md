@@ -1,6 +1,6 @@
 # Docker-Application-Deployment-VCC
 Assignment for Virtualization and Cloud computing
-# Virtualization and Cloud Computing | PHP Docker App
+# Virtualization and Cloud Computing | PHP Web Appication |
 
 This project demonstrates the deployment of a sample web application in php using Docker containers. The application is built from scratch.
 
